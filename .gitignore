@@ -1,0 +1,12 @@
+*.retry
+*.tfstate
+*.tfstate.backup
+*.DS_Store
+
+#virtualenv
+env
+
+inventory/win-inventory
+roles/external/*
+
+!roles/external

@@ -1,0 +1,4 @@
+# Ansible Galaxy Roles
+geerlingguy.nodejs
+geerlingguy.repo-epel
+geerlingguy.nginx
