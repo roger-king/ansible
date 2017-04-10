@@ -41,7 +41,7 @@ We have a custom python file that we use to setup the inventory file for windows
 
 ```
 chmod +x scripts/aws/win_inventory_generator.py
-./scripts/aws/win_inventory_generator.py --pem ~/.ssh/ci-validation.pem --region us-east-1 --inventory win-inventory --profile default
+./scripts/aws/win_inventory_generator.py --pem ~/.ssh/your-pem.pem --region us-east-1 --inventory win-inventory --profile default
 ```
 This will create a file named "win-inventory" in the "inventory" folder.
 
